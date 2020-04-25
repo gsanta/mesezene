@@ -15,10 +15,4 @@ function mesezene_features() {
 
 add_action('after_setup_theme', 'mesezene_features');
 
-function mesezene_post_types() {
-    register_post_type('event', array(
-        'public' => true
-    ));
-}
-
-add_action('init', 'mesezene_post_types');
+?>
