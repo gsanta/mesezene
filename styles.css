@@ -2173,22 +2173,6 @@
     color: #173f58;
   }
   
-  .event-summary__date {
-    text-decoration: none;
-    display: block;
-    top: 0;
-    left: 0;
-    position: absolute;
-    padding: 14px 0 11px 0;
-    color: #FFF;
-    border-radius: 50%;
-    background-color: #0D3B66;
-    width: 80px;
-    line-height: 1;
-    transition: opacity .33s;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .22);
-  }
-  
   .event-summary__date:hover {
     opacity: .75;
   }

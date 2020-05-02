@@ -1,0 +1,89 @@
+
+.page-banner__row {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+    > div {
+        width: 500px;
+    }
+
+    .page-banner {
+        color: #E26B58;
+        background-color: transparent;
+        padding: 40px 0px;
+        font-size: 32px;
+        text-transform: uppercase;
+    }
+
+    .event-summaries {
+        background-color: #f6f4b2;
+        padding: 20px;
+
+        .event-summary {
+            &__title a {
+                color: #151414;
+                text-decoration: none;
+            }
+        }
+
+
+        .event-summary__date {
+            text-decoration: none;
+            display: block;
+            top: 0;
+            left: 0;
+            position: absolute;
+            padding: 14px 0 11px 0;
+            color: #FFF;
+            border-radius: 50%;
+            background-color: #E4D76C;
+            width: 80px;
+            line-height: 1;
+            transition: opacity .33s;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, .22);
+        }
+
+        &__date {
+            text-decoration: none;
+            display: block;
+            top: 0;
+            left: 0;
+            position: absolute;
+            padding: 14px 0 11px 0;
+            color: #fff;
+            border-radius: 50%;
+            background-color: $mainBlue;
+            width: 80px;
+            line-height: 1;
+            transition: opacity 0.33s;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.22);
+        }
+    
+        &__date:hover {
+            opacity: 0.75;
+        }
+    
+        &__date--beige {
+            background-color: $mainYellow;
+        }
+    
+        &__month {
+            display: block;
+            font-size: 1.5rem;
+            font-weight: 300;
+            text-transform: uppercase;
+        }
+    
+        &__day {
+            display: block;
+            font-size: 2.02rem;
+            font-weight: 700;
+        }
+    }
+}
+
+.modszertan-row {
+    background-color: #F8DFDB;
+    display: flex;
+}
